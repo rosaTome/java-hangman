@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Hangman {
     public static void main(String[] args) throws FileNotFoundException {
 
-        Scanner scanner = new Scanner(new File("/Users/rosaTome/Desktop/words.txt"));
+        Scanner scanner = new Scanner(new File("/Users/rosaTome/Desktop/java-hangman/src/main/java/springwords.txt"));
         Scanner keyboard = new Scanner(System.in);
 
         List<String> words = new ArrayList<>();
